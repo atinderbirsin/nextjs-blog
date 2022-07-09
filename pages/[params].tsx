@@ -7,7 +7,7 @@ export default function Param() {
     return (
         <>
             <h1>
-                {params.split('-').join('')}
+                {params}
             </h1>
         </>
     )
